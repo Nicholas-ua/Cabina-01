@@ -11,7 +11,7 @@ body {
     vertical-align: middle;
   }
   
-  .cap1, .cap2 {
+  #circlr1, #circlr2 {
     width: 50%;
     height: auto;
     margin: 10px;
@@ -20,8 +20,10 @@ body {
 
 @media screen and (max-width: 599px) {
   .products {
-    width: 100%;
+    width: 90%;
     height: auto;
+    overflow-y: scroll;
+    margin: auto;
   }
 }
 
